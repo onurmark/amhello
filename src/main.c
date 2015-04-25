@@ -7,9 +7,11 @@
 
 #include <stdio.h>
 
+#include "greeting.h"
+
 int main(int argc, char *argv[])
 {
-	printf("Hello automake.\n");
+	greeting();
 
 	return 0;
 }
